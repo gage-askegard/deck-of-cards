@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="models.DeckOfCardsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-09-02T19:37:08" hostname="gages-mbp.lan" time="0.021">
+  <properties/>
+  <testcase name="testDealing()" classname="models.DeckOfCardsTest" time="0.016"/>
+  <testcase name="testShuffle()" classname="models.DeckOfCardsTest" time="0.002"/>
+  <testcase name="testCustomDeck()" classname="models.DeckOfCardsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
