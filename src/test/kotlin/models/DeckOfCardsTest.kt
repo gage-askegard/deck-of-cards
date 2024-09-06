@@ -1,7 +1,10 @@
 package models
 
 import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.params.ParameterizedTest
+import org.junit.jupiter.params.provider.ValueSource
 
 /**
  * Tests for the DeckOfCards data class
@@ -12,6 +15,10 @@ class DeckOfCardsTest {
         const val STANDARD_CARD_COUNT = 52
     }
 
+    @Nested
+    inner class DealingTests {
+        
+    }
     @Test
     fun testDealing() {
         val deckOfCards = DeckOfCards()
